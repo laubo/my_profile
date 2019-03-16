@@ -16,10 +16,11 @@ h2 {
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	color: #444444;
 	font-size: 18px;
 	font-weight: 400;
-	background-color: #588A91;
-	text-align: left;
+	background-color: #bac9cc;
+	text-align: center;
 }
 
 a {
@@ -27,11 +28,47 @@ a {
 }
 
 .card-white {
-	background-color: #eeeeee
-	padding: 20px 20px;
+	background-color: #eeeeee;
+	padding: 50px;
+	margin: 15px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px #568a91;
+}
 
 .container {
-	width: 700px;
+	width: 750px;
+	margin: 40px auto;
+}
+
+.img-circle {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.list-inline {
+	list-style: none;
+}
+
+.btn-purple {
+	background-color: #36a4b3;
+	padding: 15px 20px;
+	color: white;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+.btn-purple:hover {
+	background-color: #49c9da
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #36a4b3
+}
+
+.list-inline li {
+	display: inline;
 }
 
 @media (max-width: 900px) {
