@@ -1,3 +1,6 @@
+
+/* General ---------------------- */
+
 h1, h2, a {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -28,6 +31,12 @@ body {
 a {
 	text-decoration: none;
 }
+
+p {
+	 margin-bottom: 30px;
+}
+
+/* Estructura ---------------------- */
 
 .card-white {
 	background-color: #eeeeee;
@@ -87,9 +96,17 @@ a {
 	display: inline;
 }
 
-p {
-	 margin-bottom: 30px;
+.list-icon {
+	text-align: left;
+	padding: 0px 50px 0px 50px;
+	list-style-position: outside;
 }
+
+.list-icon i {
+	color: #36a4b3;
+}
+
+/* Media ---------------------- */
 
 @media (max-width: 900px) {
 	.container {
